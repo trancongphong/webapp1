@@ -1,0 +1,12 @@
+F
+BD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.csH
+DD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.csF
+BD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.csH
+DD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.csH
+DD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.csX
+TD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.csJ
+FD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs\
+XD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.csH
+DD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.csF
+BD:\temp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.csC
+?D:\temp\obj\Debug\netcoreapp2.1\temp.RazorTargetAssemblyInfo.cs
