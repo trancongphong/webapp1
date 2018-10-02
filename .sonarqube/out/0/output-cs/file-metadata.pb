@@ -1,0 +1,12 @@
+K
+GD:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.csM
+ID:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.csK
+GD:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.csM
+ID:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.csM
+ID:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs]
+YD:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.csO
+KD:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.csa
+]D:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.csM
+ID:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.csK
+GD:\sonarproj\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.csM
+ID:\sonarproj\obj\Debug\netcoreapp2.1\sonarproj.RazorTargetAssemblyInfo.cs

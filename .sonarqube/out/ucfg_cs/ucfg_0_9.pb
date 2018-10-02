@@ -1,0 +1,27 @@
+
+ sonarproj.Program.Main(string[])!
+D:\sonarproj\Program.cs (	args"0*¹
+0~
+|
+!
+D:\sonarproj\Program.cs (&
+%0"0sonarproj.Program.CreateWebHostBuilder(string[])*"
+sonarproj.Program*
+
+argsi
+g
+!
+D:\sonarproj\Program.cs (.
+%1"4Microsoft.AspNetCore.Hosting.IWebHostBuilder.Build()*
+
+%0Ã
+À
+!
+D:\sonarproj\Program.cs (4
+%2"YMicrosoft.AspNetCore.Hosting.WebHostExtensions.Run(Microsoft.AspNetCore.Hosting.IWebHost)*2"0
+.Microsoft.AspNetCore.Hosting.WebHostExtensions*
+
+%1*
+1*
+1"
+""
