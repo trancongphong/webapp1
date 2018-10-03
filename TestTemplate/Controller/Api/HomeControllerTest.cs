@@ -11,7 +11,7 @@ namespace TestTemplate.Controller.Api
         [Fact]
         public void Search()
         {
-            var controller = new HomeController();
+            HomeController controller = new HomeController();
             var result =  controller.Search();
 
             Assert.Equal(2, result);
