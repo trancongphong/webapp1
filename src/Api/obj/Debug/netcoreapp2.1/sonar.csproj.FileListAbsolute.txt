@@ -3,7 +3,6 @@ D:\templatemvc\src\Api\bin\Debug\netcoreapp2.1\sonar.runtimeconfig.json
 D:\templatemvc\src\Api\bin\Debug\netcoreapp2.1\sonar.runtimeconfig.dev.json
 D:\templatemvc\src\Api\bin\Debug\netcoreapp2.1\sonar.dll
 D:\templatemvc\src\Api\bin\Debug\netcoreapp2.1\sonar.pdb
-D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.csprojAssemblyReference.cache
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.csproj.CoreCompileInputs.cache
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.RazorAssemblyInfo.cache
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.AssemblyInfo.cs
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.RazorTargetAssemblyInfo.cache
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.dll
 D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.pdb
+D:\templatemvc\src\Api\obj\Debug\netcoreapp2.1\sonar.csprojAssemblyReference.cache

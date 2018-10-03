@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/templatemvc/src/Program.cs",
+                "uri": "file:///D:/templatemvc/src/Mvc/Program.cs",
                 "region": {
                   "startLine": 13,
                   "startColumn": 18,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/templatemvc/src/Startup.cs",
+                "uri": "file:///D:/templatemvc/src/Mvc/Startup.cs",
                 "region": {
                   "startLine": 47,
                   "startColumn": 41,
