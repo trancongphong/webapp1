@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\sonarproj.csproj" />
+    <Reference Include="sonarproj">
+      <HintPath>..\..\src\Mvc\bin\Debug\netcoreapp2.1\sonarproj.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

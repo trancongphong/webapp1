@@ -1,7 +1,0 @@
-organization=trancongphong-github
-projectKey=TestTemplate3
-serverUrl=https://sonarcloud.io
-serverVersion=7.4.0.17063
-dashboardUrl=https://sonarcloud.io/dashboard?id=TestTemplate3
-ceTaskId=AWY4WAdXCtES-6LJIfWq
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWY4WAdXCtES-6LJIfWq

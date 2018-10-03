@@ -4960,19 +4960,6 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
-      },
-      "sonarproj/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/sonarproj.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/sonarproj.dll": {}
-        }
       }
     }
   },
@@ -13219,11 +13206,6 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "sonarproj/1.0.0": {
-      "type": "project",
-      "path": "../../src/sonarproj.csproj",
-      "msbuildProject": "../../src/sonarproj.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13233,7 +13215,6 @@
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "coverlet.msbuild >= 2.0.1",
-      "sonarproj >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -13267,11 +13248,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "D:\\templatemvc\\src\\sonarproj.csproj": {
-              "projectPath": "D:\\templatemvc\\src\\sonarproj.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -13296,6 +13273,7 @@
             "version": "[15.8.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
