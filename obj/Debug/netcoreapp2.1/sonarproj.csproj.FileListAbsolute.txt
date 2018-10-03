@@ -1,6 +1,0 @@
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.csprojAssemblyReference.cache
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.csproj.CoreCompileInputs.cache
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.RazorAssemblyInfo.cache
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.RazorAssemblyInfo.cs
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.AssemblyInfoInputs.cache
-D:\templatemvc\obj\Debug\netcoreapp2.1\sonarproj.AssemblyInfo.cs

@@ -1,0 +1,274 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "2.9.0.0",
+        "fileVersion": "2.9.0.63127 (4b223d58)",
+        "semanticVersion": "2.9.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyConfigurationAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 12,
+                  "endLine": 11,
+                  "endColumn": 60
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyFileVersionAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 12,
+                  "endLine": 12,
+                  "endColumn": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyInformationalVersionAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12,
+                  "endLine": 13,
+                  "endColumn": 67
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyProductAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+                  "endColumn": 52
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0579",
+          "level": "error",
+          "message": "Duplicate 'System.Reflection.AssemblyVersionAttribute' attribute",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/obj/Debug/netcoreapp2.1/sonarproj.AssemblyInfo.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 12,
+                  "endLine": 16,
+                  "endColumn": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'Api' does not exist in the namespace 'sonarproj.Controllers' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/TestTemplate/Controller/Api/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 29,
+                  "endLine": 1,
+                  "endColumn": 32
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Xunit' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/TestTemplate/Controller/Api/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'FactAttribute' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/TestTemplate/Controller/Api/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 10,
+                  "endLine": 11,
+                  "endColumn": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Fact' could not be found (are you missing a using directive or an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/TestTemplate/Controller/Api/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 10,
+                  "endLine": 11,
+                  "endColumn": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0234",
+          "level": "error",
+          "message": "The type or namespace name 'VisualStudio' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/templatemvc/TestTemplate/obj/Debug/netcoreapp2.1/TestTemplate.Program.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 12,
+                  "endLine": 3,
+                  "endColumn": 24
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rules": {
+        "CS0234": {
+          "id": "CS0234",
+          "defaultLevel": "error",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS0579": {
+          "id": "CS0579",
+          "defaultLevel": "error",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
