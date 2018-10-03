@@ -1,7 +1,7 @@
 organization=trancongphong-github
-projectKey=mstemplate1
+projectKey=projecttest1
 serverUrl=https://sonarcloud.io
 serverVersion=7.4.0.17063
-dashboardUrl=https://sonarcloud.io/dashboard?id=mstemplate1
-ceTaskId=AWY0cqmnHR8j8dJrYZQ2
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWY0cqmnHR8j8dJrYZQ2
+dashboardUrl=https://sonarcloud.io/dashboard?id=projecttest1
+ceTaskId=AWY3pmHv-o61MP5s1RiP
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWY3pmHv-o61MP5s1RiP

@@ -7,6 +7,7 @@ D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.deps.json
 D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.runtimeconfig.json
 D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.runtimeconfig.dev.json
 D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.dll
+D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.pdb
 D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.dll
 D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.pdb
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.csprojAssemblyReference.cache
@@ -14,6 +15,5 @@ D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.csproj.CoreComp
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.AssemblyInfoInputs.cache
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.AssemblyInfo.cs
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.csproj.CopyComplete
-D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\TestTemplate.pdb
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.dll
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.pdb

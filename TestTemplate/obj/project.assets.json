@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "coverlet.msbuild/2.0.1": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/coverlet.msbuild.props": {},
+          "build/netstandard2.0/coverlet.msbuild.targets": {}
+        }
+      },
+      "FluentAssertions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentAssertions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentAssertions.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -3325,6 +3346,18 @@
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
         }
       },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Console/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3977,7 +4010,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -4410,6 +4443,21 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
@@ -4937,6 +4985,104 @@
     }
   },
   "libraries": {
+    "coverlet.msbuild/2.0.1": {
+      "sha512": "KB0c58cTgNRVUCYR4lnLRdIhrlynWJIfDGHS6vm6ieGw6GQQ1r2WRBqW+VvqCfcQuHBRPe+aVVq8q87q1kmA9w==",
+      "type": "package",
+      "path": "coverlet.msbuild/2.0.1",
+      "files": [
+        "build/netstandard2.0/ConsoleTables.dll",
+        "build/netstandard2.0/Jil.Core.dll",
+        "build/netstandard2.0/Microsoft.Build.Framework.dll",
+        "build/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "build/netstandard2.0/Microsoft.CSharp.dll",
+        "build/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/Sigil.dll",
+        "build/netstandard2.0/System.AppContext.dll",
+        "build/netstandard2.0/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/System.Collections.Immutable.dll",
+        "build/netstandard2.0/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/System.Collections.Specialized.dll",
+        "build/netstandard2.0/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/System.ComponentModel.dll",
+        "build/netstandard2.0/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/System.Linq.Expressions.dll",
+        "build/netstandard2.0/System.Linq.dll",
+        "build/netstandard2.0/System.ObjectModel.dll",
+        "build/netstandard2.0/System.Private.DataContractSerialization.dll",
+        "build/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "build/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "build/netstandard2.0/System.Reflection.Emit.dll",
+        "build/netstandard2.0/System.Reflection.Metadata.dll",
+        "build/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "build/netstandard2.0/System.Resources.Reader.dll",
+        "build/netstandard2.0/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/System.Threading.Thread.dll",
+        "build/netstandard2.0/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/System.Threading.dll",
+        "build/netstandard2.0/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/coverlet.core.dll",
+        "build/netstandard2.0/coverlet.msbuild.props",
+        "build/netstandard2.0/coverlet.msbuild.targets",
+        "build/netstandard2.0/coverlet.msbuild.tasks.deps.json",
+        "build/netstandard2.0/coverlet.msbuild.tasks.dll",
+        "build/netstandard2.0/runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "coverlet.msbuild.2.0.1.nupkg.sha512",
+        "coverlet.msbuild.nuspec"
+      ]
+    },
+    "FluentAssertions/5.0.0": {
+      "sha512": "d1HxcAZAcb8dNjPUChLH4VYFUfO8xeyYzKJH3HzcokcW1XnYm/q0noHFWzGvhbotEJAoiNPEaK/BdmftYFRmpg==",
+      "type": "package",
+      "path": "fluentassertions/5.0.0",
+      "files": [
+        "fluentassertions.5.0.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net45/FluentAssertions.dll",
+        "lib/net45/FluentAssertions.pdb",
+        "lib/net45/FluentAssertions.xml",
+        "lib/netstandard1.4/FluentAssertions.dll",
+        "lib/netstandard1.4/FluentAssertions.pdb",
+        "lib/netstandard1.4/FluentAssertions.xml",
+        "lib/netstandard1.6/FluentAssertions.dll",
+        "lib/netstandard1.6/FluentAssertions.pdb",
+        "lib/netstandard1.6/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -8714,6 +8860,25 @@
         "system.componentmodel.typeconverter.nuspec"
       ]
     },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Console/4.3.0": {
       "sha512": "DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "type": "package",
@@ -11729,6 +11894,45 @@
         "system.security.cryptography.primitives.nuspec"
       ]
     },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "type": "package",
@@ -13014,9 +13218,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FluentAssertions >= 5.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
+      "coverlet.msbuild >= 2.0.1",
       "sonarproj >= 1.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
@@ -13067,6 +13273,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.AspNetCore.App": {
             "target": "Package",
             "version": "[2.1.1, )"
@@ -13080,6 +13290,12 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "coverlet.msbuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "xunit": {
             "target": "Package",

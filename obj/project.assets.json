@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sonarproj\\sonarproj.csproj",
+      "projectUniqueName": "D:\\templatemvc\\sonarproj.csproj",
       "projectName": "sonarproj",
-      "projectPath": "D:\\sonarproj\\sonarproj.csproj",
+      "projectPath": "D:\\templatemvc\\sonarproj.csproj",
       "packagesPath": "C:\\Users\\Phong\\.nuget\\packages\\",
-      "outputPath": "D:\\sonarproj\\obj\\",
+      "outputPath": "D:\\templatemvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
