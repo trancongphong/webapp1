@@ -15,8 +15,6 @@ D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.AssemblyInfo.cs
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.csproj.CopyComplete
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.dll
 D:\templatemvc\TestTemplate\obj\Debug\netcoreapp2.1\TestTemplate.pdb
-D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.Views.dll
-D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.Views.pdb
 D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll

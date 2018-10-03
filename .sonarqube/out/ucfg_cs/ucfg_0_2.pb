@@ -1,7 +1,15 @@
 
-Lsonarproj.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)'
-D:\templatemvc\src\Startup.cs (	configuration"0*
-0*
-1*
+1sonarproj.Controllers.Api.HomeController.Search()>
+4D:\templatemvc\src\Controllers\Api\HomeController.cs (	"0*£
+0U
+S
+>
+4D:\templatemvc\src\Controllers\Api\HomeController.cs (
+c"__id*
+"""G
+>
+4D:\templatemvc\src\Controllers\Api\HomeController.cs (
+
+c*
 1"
 ""
