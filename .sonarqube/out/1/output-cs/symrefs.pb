@@ -1,8 +1,0 @@
-‹
-ED:\templatemvc\test\TestTemplate\Controller\Api\HomeControllerTest.cs
-
-		 #
-
- 
- % $
-  "

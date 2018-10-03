@@ -7,7 +7,7 @@
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
   <SonarQubeVersion>7.4.0.17063</SonarQubeVersion>
-  <SonarProjectKey>TestTemplate2</SonarProjectKey>
+  <SonarProjectKey>TestTemplate3</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
