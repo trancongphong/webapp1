@@ -1,8 +1,8 @@
-†
-@D:\templatemvc\TestTemplate\Controller\Api\HomeControllerTest.cs
+‹
+ED:\templatemvc\test\TestTemplate\Controller\Api\HomeControllerTest.cs
 
 		 #
 
  
-  $
+ % $
   "

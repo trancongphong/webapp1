@@ -2,16 +2,16 @@
 <CoverageSession>
   <Summary numSequencePoints="85" visitedSequencePoints="4" numBranchPoints="85" visitedBranchPoints="4" sequenceCoverage="0.047" branchCoverage="0.047" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="18" visitedMethods="1" numMethods="25" />
   <Modules>
-    <Module hash="716AAA2E-FB36-43C8-881C-BFC855BBB46B">
-      <ModulePath>D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.dll</ModulePath>
-      <ModuleTime>2018-10-03T01:42:02</ModuleTime>
+    <Module hash="F8A386E9-DACF-42A2-9B00-2D2D2F456E21">
+      <ModulePath>D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.dll</ModulePath>
+      <ModuleTime>2018-10-03T04:01:25</ModuleTime>
       <ModuleName>sonarproj</ModuleName>
       <Files>
-        <File uid="1" fullPath="D:\sonarproj\Program.cs" />
-        <File uid="2" fullPath="D:\sonarproj\Startup.cs" />
-        <File uid="3" fullPath="D:\sonarproj\Models\ErrorViewModel.cs" />
-        <File uid="4" fullPath="D:\sonarproj\Controllers\HomeController.cs" />
-        <File uid="5" fullPath="D:\sonarproj\Controllers\Api\HomeController.cs" />
+        <File uid="1" fullPath="D:\templatemvc\src\Program.cs" />
+        <File uid="2" fullPath="D:\templatemvc\src\Startup.cs" />
+        <File uid="3" fullPath="D:\templatemvc\src\Models\ErrorViewModel.cs" />
+        <File uid="4" fullPath="D:\templatemvc\src\Controllers\HomeController.cs" />
+        <File uid="5" fullPath="D:\templatemvc\src\Controllers\Api\HomeController.cs" />
       </Files>
       <Classes>
         <Class>
@@ -251,19 +251,19 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="169C8974-D7CE-4F7E-85AE-166B8EF75F09">
-      <ModulePath>D:\templatemvc\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.Views.dll</ModulePath>
-      <ModuleTime>2018-10-03T01:42:02</ModuleTime>
+    <Module hash="6FBD4C94-ED4F-49E3-A43D-8DAA147173D6">
+      <ModulePath>D:\templatemvc\test\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.Views.dll</ModulePath>
+      <ModuleTime>2018-10-03T04:01:25</ModuleTime>
       <ModuleName>sonarproj.Views</ModuleName>
       <Files>
-        <File uid="6" fullPath="D:\sonarproj\Views\Home\About.cshtml" />
-        <File uid="7" fullPath="D:\sonarproj\Views\Home\Contact.cshtml" />
-        <File uid="8" fullPath="D:\sonarproj\Views\Home\Index.cshtml" />
-        <File uid="9" fullPath="D:\sonarproj\Views\Home\Privacy.cshtml" />
-        <File uid="10" fullPath="D:\sonarproj\Views\Shared\Error.cshtml" />
-        <File uid="11" fullPath="D:\sonarproj\Views\Shared\_CookieConsentPartial.cshtml" />
-        <File uid="12" fullPath="D:\sonarproj\Views\Shared\_Layout.cshtml" />
-        <File uid="13" fullPath="D:\sonarproj\Views\_ViewStart.cshtml" />
+        <File uid="6" fullPath="D:\templatemvc\src\Views\Home\About.cshtml" />
+        <File uid="7" fullPath="D:\templatemvc\src\Views\Home\Contact.cshtml" />
+        <File uid="8" fullPath="D:\templatemvc\src\Views\Home\Index.cshtml" />
+        <File uid="9" fullPath="D:\templatemvc\src\Views\Home\Privacy.cshtml" />
+        <File uid="10" fullPath="D:\templatemvc\src\Views\Shared\Error.cshtml" />
+        <File uid="11" fullPath="D:\templatemvc\src\Views\Shared\_CookieConsentPartial.cshtml" />
+        <File uid="12" fullPath="D:\templatemvc\src\Views\Shared\_Layout.cshtml" />
+        <File uid="13" fullPath="D:\templatemvc\src\Views\_ViewStart.cshtml" />
       </Files>
       <Classes>
         <Class>

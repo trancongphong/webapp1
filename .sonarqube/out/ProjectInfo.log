@@ -1,7 +1,7 @@
 Product projects
 ---------------------------------------
-D:\sonarproj\sonarproj.csproj
-D:\templatemvc\TestTemplate\TestTemplate.csproj
+D:\templatemvc\src\sonarproj.csproj
+D:\templatemvc\test\TestTemplate\TestTemplate.csproj
 
 
 Test projects
@@ -10,7 +10,7 @@ Test projects
 
 Invalid projects
 ---------------------------------------
-{none}
+D:\templatemvc\src\sonarproj.csproj
 
 
 Skipped projects

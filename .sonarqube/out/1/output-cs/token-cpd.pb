@@ -1,5 +1,5 @@
-£
-@D:\templatemvc\TestTemplate\Controller\Api\HomeControllerTest.cs
+³
+ED:\templatemvc\test\TestTemplate\Controller\Api\HomeControllerTest.cs
 	namespace 	
 TestTemplate
  
@@ -24,16 +24,16 @@ Controller !
 Search 
 ( 
 ) 
-{ 	
-var 
+{ 	
+HomeController 
 
-controller 
-= 
-new  
-HomeController! /
-(/ 0
-)0 1
-;1 2
+controller %
+=& '
+new( +
+HomeController, :
+(: ;
+); <
+;< =
 var 
 result 
 = 

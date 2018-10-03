@@ -7,7 +7,7 @@
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
   <SonarQubeVersion>7.4.0.17063</SonarQubeVersion>
-  <SonarProjectKey>projecttest1</SonarProjectKey>
+  <SonarProjectKey>TestTemplate2</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
@@ -136,7 +136,7 @@ Select your &lt;a href="https://about.sonarcloud.io"&gt;plan&lt;/a&gt; and start
   <LocalSettings>
     <Property Name="sonar.organization">trancongphong-github</Property>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
-    <Property Name="sonar.cs.opencover.reportsPaths">/TestTemplate/coverage.opencover.xml</Property>
+    <Property Name="sonar.cs.opencover.reportsPaths">/test/TestTemplate/coverage.opencover.xml</Property>
   </LocalSettings>
   <AnalyzersSettings>
     <AnalyzerSettings>
