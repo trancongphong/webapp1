@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="38" visitedSequencePoints="4" numBranchPoints="38" visitedBranchPoints="4" sequenceCoverage="0.105" branchCoverage="0.105" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="4" visitedMethods="1" numMethods="6" />
   <Modules>
-    <Module hash="65CF1C39-5519-4D9F-9A98-2FA46AEF36DE">
+    <Module hash="77339539-9189-447F-8F83-0BE38BB2B1F4">
       <ModulePath>D:\templatemvc\test\MvcTest\TestTemplate\bin\Debug\netcoreapp2.1\sonarproj.dll</ModulePath>
-      <ModuleTime>2018-10-03T08:06:48</ModuleTime>
+      <ModuleTime>2018-10-04T06:39:20</ModuleTime>
       <ModuleName>sonarproj</ModuleName>
       <Files>
         <File uid="1" fullPath="D:\templatemvc\src\Mvc\Program.cs" />
