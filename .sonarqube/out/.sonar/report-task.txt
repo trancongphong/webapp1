@@ -1,0 +1,7 @@
+organization=trancongphong-github
+projectKey=phong-archway
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.17856
+dashboardUrl=https://sonarcloud.io/dashboard?id=phong-archway
+ceTaskId=AWZDNP5rMw52PrQC0M8N
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWZDNP5rMw52PrQC0M8N
