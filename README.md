@@ -64,5 +64,6 @@ If it is the first time you run the Analysis, you need somethings to configure:
 ### Notes
 
 ### Authors
-
+* Tran Cong Phong - ArchwayFactory
 ### License
+This script is licensed under the Archway Architecture License
