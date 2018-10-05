@@ -23,10 +23,6 @@
     <DotNetCliToolReference Include="dotnet-reportgenerator-cli" Version="4.0.0-alpha12" />
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
-    <PackageReference Include="Microsoft.CodeCoverage" Version="1.0.3" />
-  </ItemGroup>
-
   <ItemGroup>
     <Reference Include="sonar">
       <HintPath>..\..\..\src\Api\bin\Debug\netcoreapp2.1\sonar.dll</HintPath>
